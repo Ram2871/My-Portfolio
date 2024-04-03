@@ -528,8 +528,10 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
-  height: auto;
+  width: 400px; /* Set your desired width */
+  height: 450px; /* Set your desired height */
+  object-fit: cover;
+  border-radius: 50%; /* Make it round */
 }
 
 .img-thumbnail {
